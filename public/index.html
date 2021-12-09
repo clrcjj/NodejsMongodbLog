@@ -9,11 +9,11 @@
 <body>
     <p>-----------------mongodb操作------------------------</p>
     <form name="myForm" action="/input" 
-        onsubmit="return validateForm()" method="POST">
-        数据1: <input type="text" name="one"><br>
-        数据2: <input type="text" name="two"><br>
-        <input type="submit" value="写入" name="write">
-        <input type="submit" value="读取" name="read">
+        onsubmit="return validateForm()" method="GET">
+        数据1: <input type="text" name="first"><br>
+        数据2: <input type="text" name="second"><br>
+        <input type="submit" value="write" name="write">
+        <input type="submit" value="read" name="read">
     </form>
 </body>
 </html>
